@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="indicator_height">3dp</dimen>
+    <dimen name="indicator_margin_end">6dp</dimen>
+    <dimen name="back_width">25dp</dimen>
+    <dimen name="back_height">32dp</dimen>
+    <dimen name="back_marginStart">16dp</dimen>
+    <dimen name="back_padding">8dp</dimen>
+    <dimen name="back_icon_width">9dp</dimen>
+    <dimen name="back_icon_height">16dp</dimen>
+    <dimen name="profile_icon_dimen">56dp</dimen>
+</resources>

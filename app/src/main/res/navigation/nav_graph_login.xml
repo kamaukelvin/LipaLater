@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_login"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.lipalater.androidapp.ui.auth.login.LoginFragment"
+        android:label="" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/resetPasswordFirstFragment"
+        android:name="com.lipalater.androidapp.ui.auth.login.ResetPasswordFirstFragment"
+        android:label="" >
+    </fragment>
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="com.lipalater.androidapp.ui.auth.login.ResetPasswordFragment"
+        android:label="ResetPasswordFragment" />
+    <fragment
+        android:id="@+id/verifyEmailFragment"
+        android:name="com.lipalater.androidapp.ui.auth.login.VerifyEmailFragment"
+        android:label="VerifyEmail" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.lipalater.androidapp.ui.auth.login.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/checkEmailSuccessFragment"
+        android:name="com.lipalater.androidapp.ui.auth.login.CheckEmailSuccessFragment"
+        android:label="CheckEmailSuccessFragment" />
+    <fragment
+        android:id="@+id/step1Fragment2"
+        android:name="com.lipalater.androidapp.ui.auth.signup.Step1Fragment"
+        android:label="Step1Fragment" />
+    <fragment
+        android:id="@+id/step2Fragment2"
+        android:name="com.lipalater.androidapp.ui.auth.signup.Step2Fragment"
+        android:label="Step2Fragment" />
+    <fragment
+        android:id="@+id/step3Fragment2"
+        android:name="com.lipalater.androidapp.ui.auth.signup.Step3Fragment"
+        android:label="Step3Fragment" />
+    <fragment
+        android:id="@+id/step4Fragment2"
+        android:name="com.lipalater.androidapp.ui.auth.signup.Step4Fragment"
+        android:label="Step4Fragment" />
+
+</navigation>

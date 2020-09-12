@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/relativelayoutProfile"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/maincolorBlue"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgageViewcancel"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_cancel_white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewprofile"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/profilewhite_background"
+            app:srcCompat="@drawable/ic_account_circle_24px" />
+
+        <TextView
+            android:id="@+id/textViewname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewprofile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/brfirmasemibold"
+            android:gravity="center_horizontal"
+            android:text="Leah Macharia"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewname"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/brfirmasemibold"
+            android:gravity="center_horizontal"
+            android:text="+254 710 234 567"
+            android:textColor="#d7e1ea"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/relativelayoutProfile">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/relativelayoutProfile"
+
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textviewPersonalInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/brfirmasemibold"
+                    android:text="Personal info"
+                    android:textColor="#00376b"
+                    android:textSize="16sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutProfileNames"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    app:layout_constraintTop_toBottomOf="@id/textviewPersonalInfo">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/textviewFirst"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/brfirmamedium"
+                            android:text="First name"
+                            android:textColor="#72809d"
+                            android:textSize="12sp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textviewPersonalInfo" />
+
+                        <TextView
+                            android:id="@+id/textviewLeah"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/brfirmasemibold"
+                            android:text="Leah"
+                            android:textColor="#00376b"
+                            android:textSize="14sp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textviewFirst" />
+
+                        <View
+                            android:id="@+id/viewLineNames"
+                            android:layout_width="150dp"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#c0c0c0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textviewLeah" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="38dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/textviewLastName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="48dp"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/brfirmamedium"
+                            android:text="Last name"
+                            android:textColor="#72809d"
+                            android:textSize="12sp"
+                            app:layout_constraintStart_toEndOf="@id/viewLineNames"
+                            app:layout_constraintTop_toBottomOf="@id/textviewPersonalInfo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="48dp"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/brfirmasemibold"
+                            android:text="Macharia"
+                            android:textColor="#00376b"
+                            android:textSize="14sp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/viewLineNames"
+                            app:layout_constraintTop_toBottomOf="@id/textviewLastName" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="48dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#c0c0c0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/viewLineNames"
+                            app:layout_constraintTop_toBottomOf="@id/textviewLeah" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textviewMobilenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="@font/brfirmamedium"
+                    android:text="Mobile number"
+                    android:textColor="#72809d"
+                    android:textSize="13sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/linearlayoutProfileNames" />
+
+                <TextView
+                    android:id="@+id/textviewPhoneNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/brfirmasemibold"
+                    android:text="+254 710 234 567"
+                    android:textColor="#00376b"
+                    android:textSize="14sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textviewMobilenumber" />
+
+                <ImageView
+                    android:id="@+id/arrowLeft"
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/ic_arrowright"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textviewMobilenumber" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/brfirmamedium"
+                    android:gravity="end"
+                    android:text="verified"
+                    android:layout_marginRight="8dp"
+                    android:textColor="#88b840"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/arrowLeft"
+                    app:layout_constraintTop_toBottomOf="@id/linearlayoutProfileNames" />
+
+                <View
+                    android:id="@+id/viewLong"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="16dp"
+                    android:background="#c0c0c0"
+                    app:layout_constraintTop_toBottomOf="@id/textviewPhoneNumber" />
+
+                <TextView
+                    android:id="@+id/textviewEmailAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/brfirmamedium"
+                    android:text="Email address"
+                    android:textColor="#72809d"
+                    android:textSize="13sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/viewLong" />
+
+                <TextView
+                    android:id="@+id/textviewEmailExample"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/brfirmasemibold"
+                    android:text="example@gmail.com"
+                    android:textColor="#00376b"
+                    android:textSize="14sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textviewEmailAddress" />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/ic_arrowright"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textviewEmailAddress" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:fontFamily="@font/brfirmamedium"
+                    android:gravity="end"
+                    android:text="verified"
+                    android:layout_marginRight="8dp"
+                    android:textColor="#88b840"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/arrowLeft"
+                    app:layout_constraintTop_toBottomOf="@id/viewLong" />
+
+                <View
+                    android:id="@+id/viewEmailExample"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="16dp"
+                    android:background="#c0c0c0"
+                    app:layout_constraintTop_toBottomOf="@id/textviewEmailExample" />
+
+                <TextView
+                    android:id="@+id/textviewpasswordText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/brfirmamedium"
+                    android:text="Password"
+                    android:textColor="#72809d"
+                    android:textSize="13sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/viewEmailExample" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/brfirmasemibold"
+                    android:text="********"
+                    android:textColor="#00376b"
+                    android:textSize="14sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textviewpasswordText" />
+
+                <ImageView
+                    android:id="@+id/imgPassword"
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/ic_arrowright"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textviewpasswordText" />
+
+                <View
+                    android:id="@+id/viewPasswordAsterik"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="16dp"
+                    android:background="#c0c0c0"
+                    app:layout_constraintTop_toBottomOf="@id/imgPassword" />
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutGenderMarriage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    app:layout_constraintTop_toBottomOf="@id/viewPasswordAsterik">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textviewGender"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/brfirmamedium"
+                            android:text="Gender"
+                            android:textColor="#72809d"
+                            android:textSize="12sp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textviewPersonalInfo" />
+
+                        <TextView
+                            android:id="@+id/textviewGenderValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/brfirmasemibold"
+                            android:text="Female"
+                            android:textColor="#00376b"
+                            android:textSize="14sp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textviewFirst" />
+
+                        <View
+                            android:id="@+id/viewGender"
+                            android:layout_width="150dp"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#c0c0c0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textviewLeah" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="48dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textviewMaritalStatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="48dp"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/brfirmamedium"
+                            android:text="Marital Status"
+                            android:textColor="#72809d"
+                            android:textSize="12sp"
+                            app:layout_constraintStart_toEndOf="@id/viewLineNames"
+                            app:layout_constraintTop_toBottomOf="@id/textviewPersonalInfo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="48dp"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/brfirmasemibold"
+                            android:text="Single"
+                            android:textColor="#00376b"
+                            android:textSize="14sp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/viewLineNames"
+                            app:layout_constraintTop_toBottomOf="@id/textviewLastName" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="48dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#c0c0c0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/viewLineNames"
+                            app:layout_constraintTop_toBottomOf="@id/textviewLeah" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textviewOccupationalInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/brfirmasemibold"
+                    android:text="Occupation info"
+                    android:textColor="#00376b"
+                    android:textSize="16sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/linearlayoutGenderMarriage" />
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutJobOccupation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    app:layout_constraintTop_toBottomOf="@id/textviewOccupationalInfo">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/brfirmamedium"
+                            android:text="Employement"
+                            android:textColor="#72809d"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/brfirmasemibold"
+                            android:text="Employed"
+                            android:textColor="#00376b"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#c0c0c0" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="48dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/brfirmamedium"
+                            android:text="Sector"
+                            android:textColor="#72809d"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/brfirmasemibold"
+                            android:text="Private Sector"
+                            android:textColor="#00376b"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#c0c0c0" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textviewCompanyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/brfirmamedium"
+                    android:text="Company name"
+                    android:textColor="#72809d"
+                    android:textSize="13sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/linearlayoutJobOccupation" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="@font/brfirmasemibold"
+                    android:text="Oracle Limited"
+                    android:textColor="#00376b"
+                    android:textSize="14sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textviewCompanyName" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

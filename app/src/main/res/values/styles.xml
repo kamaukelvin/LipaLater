@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/statusBarGrey</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="BuyNow">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">6dp</item>
+    </style>
+
+    <style name="Legalese">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">8dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LogInLabel" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="StepNumber">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textLightGrey</item>
+    </style>
+
+    <style name="StepTitle">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="StepSubtitle" parent="StepNumber">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DoB" parent="StepSubtitle">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextInputLayoutAppearance">
+        <item name="colorError">@color/red</item>
+        <item name="colorPrimary">@color/colorSecondary</item>
+        <item name="colorOnSurface">@color/textLightGrey</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+
+    <style name="TogglePassword" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="ResetText">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textLightGrey</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay"></style>
+    <style name="AppTheme.PopupOverlay"></style>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingEnd="10dp"
+    android:weightSum="3"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ProgressBar
+        android:id="@+id/indicator0"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/indicator_height"
+        android:layout_marginEnd="@dimen/indicator_margin_end"
+        android:layout_weight="1"
+        android:progress="70"
+        android:progressDrawable="@drawable/indicator_progress" />
+
+    <ProgressBar
+        android:id="@+id/indicator1"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/indicator_height"
+        android:layout_marginEnd="@dimen/indicator_margin_end"
+        android:layout_weight="1"
+        android:progress="70"
+        android:progressDrawable="@drawable/indicator_progress" />
+
+    <ProgressBar
+        android:id="@+id/indicator2"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/indicator_height"
+        android:layout_marginEnd="@dimen/indicator_margin_end"
+        android:layout_weight="1"
+        android:progress="70"
+        android:progressDrawable="@drawable/indicator_progress" />
+
+</LinearLayout>

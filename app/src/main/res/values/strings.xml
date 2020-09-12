@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">Lipa Later</string>
+    <string name="label_buy_now">Buy now, pay later with Lipa Later</string>
+    <string name="label_sign_up">Sign Up</string>
+    <string name="label_log_in">Log in</string>
+    <string name="legalese">By proceeding, I accept the Lipa Later Service Terms and confirm that I have read Lipa Later Privacy Policy</string>
+    <string name="label_step_1_of_4">STEP 1 OF 4</string>
+    <string name="step_1_title">Let\’s get started by getting to know you better</string>
+    <string name="step_1_subtitle">We\’ll use this information create your profile</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_enter_your_id_number">Enter your ID number</string>
+    <string name="label_dob">What\'s your date of birth?</string>
+    <string name="hint_month">Month (e.g. 01)</string>
+    <string name="hint_day">Day</string>
+    <string name="hint_year">YYYY</string>
+    <string name="label_openemail">Open Email</string>
+    <string name="label_continue">Continue</string>
+    <string name="label_step_2_of_4">STEP 2 OF 4</string>
+    <string name="step_2_title">Next, tell us more about your occupation</string>
+    <string name="step_2_subtitle">We’ll use this information to calculate your credit limit</string>
+    <string name="label_employment_type">What\’s your employment type?</string>
+    <string name="hint_company_name">Company name</string>
+    <string name="label_who_your_employer">Who\'s your employer?</string>
+    <string name="hint_job_function">Job function</string>
+    <string name="hint_monthly">What\'s your monthly income?</string>
+    <string name="hint_monthly_expense">What\'s your monthly expense?</string>
+    <string name="hint_biz_gross">Business gross monthly income</string>
+    <string name="hint_personal_monthly">What\'s your personal monthly expense?</string>
+    <string name="hint_biz_expense">Business monthly expense?</string>
+    <string name="label_step_3_of_4">STEP 3 OF 4</string>
+    <string name="step_3_title">Tell us more about your business</string>
+    <string name="label_business_details">Business details</string>
+    <string name="hint_office_suite">Office Suite</string>
+    <string name="hint_street_name">Street name</string>
+    <string name="hint_business_phone_number">Business phone number</string>
+    <string name="hint_biz_email">Business email address (optional)</string>
+    <string name="label_step_4_of_4">STEP 4 OF 4</string>
+    <string name="step_4_title">Finally, complete your profile by securing it</string>
+    <string name="step_4_subtitle">You will use your password to authorise transactions</string>
+    <string name="label_what_email">What\'s your email address?</string>
+    <string name="hint_enter_email_address">Enter email address</string>
+    <string name="hint_create_a_password">Create a password</string>
+    <string name="hint_repeat_password">Repeat password</string>
+    <string name="label_show">Show</string>
+    <string name="label_hide">Hide</string>
+    <string name="empty" />
+    <string name="hint_government_department">Government Department</string>
+    <string name="label_welcome">Welcome back, %s!</string>
+    <string name="label_hello">Hello!</string>
+    <string name="label_enter_email_pass">Please enter your email and password</string>
+    <string name="hint_password">Password</string>
+    <string name="label_forgot_password">Forgot your password?</string>
+    <string name="label_reset">Reset</string>
+
+
+
+    <string name="label_reset_email">Enter the email address you used when you\njoined and we’ll send you instructions to reset\nyour password.</string>
+    <string name="label_reset_myemail">Reset Password</string>
+    <string name="label_reset_mypassword">Reset Password</string>
+    <string name="label_long_text">Create a strong password. It must include a\nsymbol and have at least 8 characters long</string>
+    <string name="hint_repeatpassword">Repeat Password</string>
+
+    <string name="default_error_message">Error big one</string>
+
+    <string name="verifyemail_longText">We need to verify email address\n<b>victorshiwani@gmail.com</b> to complete your\nsign up process. it is as simple as clicking the\nlink in the verification email we sent to you</string>
+    <string name="send_again"><u>Send again</u></string>
+    <string name="didn_t_get_the_mail">Didn’t get the mail?</string>
+    <string name="resetsuccesful_text">Check your email <b>victorshiwani@gmail.com</b>\nand follow the instructions.</string>
+    <string-array name="marital_status">
+        <item>Marital status</item>
+        <item>Single</item>
+        <item>Married</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="employment_type">
+        <item>Employed</item>
+        <item>Self-Employed</item>
+    </string-array>
+    <string-array name="employment_subtype">
+        <item>Private Sector</item>
+        <item>Government</item>
+    </string-array>
+    <string-array name="self_employment_subtype">
+        <item>Student</item>
+        <item>Freelancer</item>
+        <item>Proprietorship</item>
+        <item>Partnership</item>
+        <item>Limited Company</item>
+    </string-array>
+    <string-array name="job_level">
+        <item>Select job level</item>
+        <item>Intern</item>
+        <item>Associate</item>
+        <item>Junior Manager</item>
+        <item>Mid level manager</item>
+        <item>Senior Manager</item>
+        <item>Executive Manager</item>
+    </string-array>
+    <string-array name="job_function">
+        <item>Select job function</item>
+        <item>Accounting Auditing &amp; Finance</item>
+        <item>Administrative &amp; Office</item>
+        <item>Agriculture &amp; Farming</item>
+        <item>Building &amp; Architecture</item>
+        <item>Community &amp; Social Services</item>
+        <item>Consulting and Strategy</item>
+        <item>Creative &amp; Design</item>
+        <item>Customer service &amp; Support</item>
+        <item>Employability &amp; Soft Skills</item>
+        <item>Engineering</item>
+        <item>Food sciences &amp; catering</item>
+        <item>Health &amp; Safety</item>
+        <item>Hospitality/Leisure &amp; Travel</item>
+        <item>Human Resources</item>
+        <item>IT &amp; Software</item>
+        <item>Legal Services</item>
+        <item>Management &amp; Business Development</item>
+        <item>Marketing &amp; Communication</item>
+        <item>Medical &amp; Pharmaceutical</item>
+        <item>Natural sciences</item>
+        <item>Project &amp; Product management</item>
+        <item>Quality Control &amp; Assurance</item>
+        <item>Real estate &amp; Property Management</item>
+        <item>Research/Teaching/Training"</item>
+        <item>Sales</item>
+        <item>Security</item>
+        <item>Supply Chain &amp; Development</item>
+        <item>Trade &amp; Services</item>
+        <item>Transport &amp; Logistics</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="job_group">
+        <item>Job group A</item>
+        <item>Job group B</item>
+    </string-array>
+    <string-array name="payment_method">
+        <item>Payment Method</item>
+        <item>bank</item>
+        <item>mpesa</item>
+        <item>cash</item>
+    </string-array>
+    <string-array name="biz_location">
+        <item>Where\'s your business located?</item>
+        <item>Baringo</item>
+        <item>Bomet</item>
+        <item>Bungoma</item>
+        <item>Busia</item>
+        <item>Elgeyo Marakwet</item>
+        <item>Embu</item>
+        <item>Garissa</item>
+        <item>Homabay</item>
+        <item>Isiolo</item>
+        <item>Kajiado</item>
+        <item>Kakamega</item>
+        <item>Kericho</item>
+        <item>Kiambu</item>
+        <item>Kilifi</item>
+        <item>Kiryaga</item>
+        <item>Kisii</item>
+        <item>Kisumu</item>
+        <item>Kitui</item>
+        <item>Kwale</item>
+        <item>Laikipia</item>
+        <item>Lamu</item>
+        <item>Machakos</item>
+        <item>Makueni</item>
+        <item>Mandera</item>
+        <item>Marsabit</item>
+        <item>Meru</item>
+        <item>Migori</item>
+        <item>Mombasa</item>
+        <item>Murang\'a</item>
+        <item>Nairobi</item>
+        <item>Nakuru</item>
+        <item>Nandi</item>
+        <item>Narok</item>
+        <item>Nyamira</item>
+        <item>Nyandarua</item>
+        <item>Nyeri</item>
+        <item>Samburu</item>
+        <item>Siaya</item>
+        <item>Taita Taveta</item>
+        <item>Tana River</item>
+        <item>Trans Nzoia</item>
+        <item>Tharaka Nithi</item>
+        <item>Turkana</item>
+        <item>Uas Gishu</item>
+        <item>Vihiga</item>
+        <item>Wajir</item>
+        <item>West Pokot</item>
+    </string-array>
+    <string-array name="months">
+        <item>Select Month</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

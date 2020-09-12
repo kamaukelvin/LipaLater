@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_signup"
+    app:startDestination="@id/step1Fragment">
+
+    <fragment
+        android:id="@+id/step1Fragment"
+        android:name="com.lipalater.androidapp.ui.auth.signup.Step1Fragment" />
+
+    <fragment
+        android:id="@+id/step2Fragment"
+        android:name="com.lipalater.androidapp.ui.auth.signup.Step2Fragment" />
+
+    <fragment
+        android:id="@+id/step3Fragment"
+        android:name="com.lipalater.androidapp.ui.auth.signup.Step3Fragment" />
+
+    <fragment
+        android:id="@+id/step4Fragment"
+        android:name="com.lipalater.androidapp.ui.auth.signup.Step4Fragment" />
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="com.lipalater.androidapp.ui.auth.login.LoginFragment"
+        android:label="LoginFragment" />
+    <fragment
+        android:id="@+id/verifyEmailFragment2"
+        android:name="com.lipalater.androidapp.ui.auth.login.VerifyEmailFragment"
+        android:label="VerifyEmailFragment" />
+
+</navigation>
